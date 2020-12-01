@@ -1,0 +1,6 @@
+C:\Users\dougl\source\repos\ConsoleApplication1\Debug\SRO Correios.exe
+C:\Users\dougl\source\repos\ConsoleApplication1\Debug\SRO Correios.pdb
+C:\Users\dougl\source\repos\ConsoleApplication1\Debug\correios_icon.ico
+D:\Coding\VisualStudio\ConsoleApplication1\Debug\correios_icon.ico
+D:\Coding\VisualStudio\ConsoleApplication1\Debug\SRO Correios.exe
+D:\Coding\VisualStudio\ConsoleApplication1\Debug\SRO Correios.pdb
