@@ -63,8 +63,8 @@ if contaLista == 0:
     print('NENHUM ITEM ENCONTRADO.')
     print('')
 
-# Loop que pega resultados e insere na lista
-n = 0
+# Loop que pega resultados e insere na lista e remove caracteres indesejados das strings extraídas do JSON reponse do site dos Correios
+n = False
 removeTxt = 'Informar nº do documento para a fiscalização e entrega do seu objeto. Clique aqui'
 for item in listaObjetos:
     try:
@@ -102,14 +102,14 @@ for item in listaObjetos:
             leitorSaida.append('-----------------\n')
             print('-----------------')
             if re.search('entregue ao destinatário', stringtitle):
-                n = 1
-        if n == 1:         
+                n = True
+        if n == True:         
             if input('O objeto ' +item +' foi entregue, deseja removê-lo da lista de objetos? [Y/N]').upper() == 'Y':
                 listaObjetos.remove(item)
                 print(item +' removido da lista de rastreio.')
         print('')
         leitorSaida.append('\n')
-        n = 0    
+        n = False    
     except:
         print('Impossível localizar o objeto ' +item +'.')
         leitorSaida.append('Impossível localizar o objeto ' +item +'.\n')
