@@ -1,8 +1,8 @@
 import json
 import re
 import os
-from correios_rast import rastreio
-from correios_rast import isCod
+from modules.correios_rast import rastreio
+from modules.correios_rast import isCod
 from more_itertools import sliced 
 
 # Limpa janela
