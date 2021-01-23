@@ -9,7 +9,8 @@ using namespace std;
 
 int main()
 { 
-    cout << "Iniciando app SRO Correios v1.8" << endl;
+    cout << "Carregando app SRO Correios v1.8" << endl;
+    cout << "Aguarde o processamento dos dados." << endl;
     string filename = "correios_reading.py";
     string command = "python ";
     command += filename;

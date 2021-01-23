@@ -1,0 +1,3 @@
+E:\Coding\VisualStudio\CorreiosConsoleApp\x64\Debug\correios_icon.ico
+E:\Coding\VisualStudio\CorreiosConsoleApp\x64\Debug\SRO Correios.exe
+E:\Coding\VisualStudio\CorreiosConsoleApp\x64\Debug\SRO Correios.pdb

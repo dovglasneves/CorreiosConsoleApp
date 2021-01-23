@@ -1,8 +1,8 @@
 import json
 import re
 import os
-from correios_rast import rastreio
-from correios_rast import isCod
+from modules.correios_rast import rastreio
+from modules.correios_rast import isCod
 from more_itertools import sliced 
 
 # Limpa janela
@@ -23,7 +23,8 @@ except:
     print('Arquivo carregado com sucesso.')
 
 # Constantes
-print('Para responder às perguntas você pode usar Y para confirmar ou qualquer outra tecla para ignorar.\n\nRASTREAMENTO CORREIOS v1.81')
+clear()
+print('RASTREAMENTO CORREIOS v1.81\n-----------------\nPara responder às perguntas você pode usar Y para confirmar ou qualquer outra tecla para ignorar.')
 actions = ' [Y/N]'
     
 # Verifica se o arquivo existe e cria caso não exista
