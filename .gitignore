@@ -35,3 +35,10 @@
 *.aps
 *.h
 RC*
+*.ipch
+*.opendb
+*.db-wal
+*.db-wal
+*.db-shm
+*.db
+.vs/ConsoleApplication1/v16/.suo
