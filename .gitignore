@@ -42,3 +42,4 @@ RC*
 *.db-shm
 *.db
 .vs/ConsoleApplication1/v16/.suo
+*.pyc
